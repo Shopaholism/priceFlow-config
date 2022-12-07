@@ -10,6 +10,14 @@ spring:
     username: "root"
     password: "qwert12345"
     driver-class-name: com.mysql.cj.jdbc.Driver
+    
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
 
 eureka:
   client:
