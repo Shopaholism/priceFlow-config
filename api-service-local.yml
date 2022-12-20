@@ -4,6 +4,20 @@ server:
 spring:
   application:
     name: api-service
+  
+  datasource:
+    url: "jdbc:mysql://localhost:3306/priceFlow"
+    username: "root"
+    password: "qwert12345"
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
 
 eureka:
   client:
