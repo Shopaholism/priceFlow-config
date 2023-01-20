@@ -18,6 +18,10 @@ spring:
     properties:
       hibernate:
         format_sql: true
+  sevlet:
+    multipart:
+      maxFileSize: 1000MB
+      maxRequestSize: 1000MB
 
 eureka:
   client:
