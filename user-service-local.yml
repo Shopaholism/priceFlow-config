@@ -18,7 +18,7 @@ spring:
     properties:
       hibernate:
         format_sql: true
-  sevlet:
+  servlet:
     multipart:
       maxFileSize: 1000MB
       maxRequestSize: 1000MB
